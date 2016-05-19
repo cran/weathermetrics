@@ -1,25 +1,30 @@
 Package: weathermetrics
 Type: Package
 Title: Functions to Convert Between Weather Metrics
-Version: 1.2.0
-Date: 2015-12-18
+Version: 1.2.2
+Date: 2016-05-19
 Authors@R: c(person("Brooke", "Anderson",
     email = "brooke.anderson@colostate.edu", role = c("aut", "cre")),
-    person("Roger", "Peng", email = "rdpeng@gmail.com", role = c("aut")))
-Description: Functions to convert between Celsius
-    and Fahrenheit, to convert between dew point temperature and relative
-    humidity, and to calculate heat index.
+    person("Roger", "Peng", email = "rdpeng@gmail.com", role = c("aut")),
+    person("Joshua", "Ferreri", email = "joshua.m.ferreri@gmail.com",
+    role = c("aut")))
+Description: Functions to convert between weather metrics, including conversions
+    for metrics of temperature, air moisture, wind speed, and precipitation.
+    This package also includes functions to calculate the heat index from
+    air temperature and air moisture.
 URL: https://github.com/geanders/weathermetrics/
 BugReports: https://github.com/geanders/weathermetrics/issues
-License: MIT + file LICENSE
+License: GPL-2
 LazyData: true
 RoxygenNote: 5.0.1
+Depends: R (>= 2.10)
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2015-12-22 19:36:32 UTC; brookeanderson
+Packaged: 2016-05-19 18:53:55 UTC; brookeanderson
 Author: Brooke Anderson [aut, cre],
-  Roger Peng [aut]
+  Roger Peng [aut],
+  Joshua Ferreri [aut]
 Maintainer: Brooke Anderson <brooke.anderson@colostate.edu>
 Repository: CRAN
-Date/Publication: 2015-12-22 23:04:33
+Date/Publication: 2016-05-19 23:19:30
